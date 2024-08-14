@@ -1,0 +1,65 @@
+header, main, footer{
+    max-width: 1200px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+h1, p, li, a, td{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    text-align: Anonymous Pro;
+    margin-left: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+p, li, a, td {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+table{
+    border: 2px solid white;
+    text-align: center;
+    padding: 20px;
+}
+
+table td{
+    padding: 10px;
+}
+
+.bg-image{
+    left:0;
+    top: 0;
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.battom{
+    max-width: 1200px;
+    margin: 0px 30px 20px 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px 10px 20px;
+    border: 20px solib rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.tap-battom{
+    max-width: 1200px;
+    margin: 0px 30px 20px 40px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 10px 20px 10px 20px;
+    border: 20px solib rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
