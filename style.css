@@ -28,9 +28,14 @@ p, li, a, td {
 }
 
 table{
-    border: 2px solid white;
+    border: 2px solid rgb(255, 0, 119);
     text-align: center;
     padding: 20px;
+    animation-name: my-anim;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
 }
 
 table td{
@@ -62,4 +67,53 @@ table td{
     padding: 10px 20px 10px 20px;
     border: 20px solib rgba(0, 0, 0, 0.75);
     border-radius: 20px;
+}
+
+@keyframes my-anim {
+    10% {
+        border: 2px  double blue;
+    }
+
+    50% {
+        border: 2px double purple;
+        
+    }
+
+    70% {
+        border: 2px double rebeccapurple;
+        
+    }
+
+    90%{
+        border: 2px double red;
+    }
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+article img{
+    height: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+article p {
+    border: none;
+    text-align: center;
+}
+
+article{
+    border: 2px double rgb(255, 0, 119);
+    width: 200px;
+    height: 275px;
+    margin: 15px;
+    animation-name: my-anim;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin-top: 20px;
+     padding: 0px 20px 0px 20px;
 }
