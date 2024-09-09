@@ -168,7 +168,7 @@ article::before {
 }
 
 article:hover::before {
-    /* content: url("img/New\ Piskel2.gif"); */
+    content: url("img/New\ Piskel2.gif");
     display: block;
     text-align: center;
     transform: scale(2);
