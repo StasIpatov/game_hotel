@@ -6,8 +6,6 @@ anime({
   let logo1 = anime({
     targets: '.fiximg',
     keyframes: [
-     
-
       {
         rotate: '1turn',
         scale: 1.2,
@@ -19,7 +17,8 @@ anime({
     ],
     duration: 2000,
     // easing: "linear",
-    autoplay: false,
-  
+    autoplay: false, 
   })
+  
   document.querySelector('.fiximg') .addEventListener('click', logo1.play)
+  
